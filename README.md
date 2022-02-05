@@ -1,6 +1,8 @@
 # Simplified-DDD (S3D)
 a new style and methodology to develop application services 
 
+<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Pyramid.png" width="40%"/>
+
 # Principles  
 1. Simple & Powerful 
 The design is simple to achieve the target purpose efficiently and as expected. The template is designed to develop application services (e.g. BE service) that manage a logic of a specific business domain, consume external  services, and expose its business to the external world via APIs. it is a light flavor of DDD and Clean Code Architecture. 
@@ -26,7 +28,7 @@ Fundamentals
 
 It worth to define the term "Application Service" before going with fundamentals, I am embracing the definition of Archimate: "An application service is defined as a service that exposes automated behavior.". and I can say, it is an independent technical module that group a set of technical functions within the application, bounded with business domain context. 
 
-<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Application%20Service%20Triangle.png" width="25%"/>
+<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Application%20Service%20Triangle.png" width="40%"/>
 
 Application Service Triangle 
 Any application service (in somehow) is bounded with three sides:
@@ -50,9 +52,13 @@ S3D is a compact design tending to reduce the layers as possible, organize code 
 S3D is a evolutionary and cloud native, so it is agile and cloud friendly architecture. the intention is to develop application module either as independent service with its ow code repo (e.g. microservice) or as a combined module in a modular application service which sharing the same code repo, but at the end what you developed is a cloud native application service and modules can be split or combined like lego pieces. Code repo can be easily managed by merging or splitting as required. The convention of using file structure make it easy to automate tasks like code generation and reusability.      
 
 
-The following diagram depict the main components of S3D 
+The following diagram depict the main components of S3D
 
 <img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Simplified%20DDD%20in%20Detail.png" width="60%" />
+
+The following diagram depict the application service structure based on S3D 
+
+<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Application%20Service%20Structure.png" width="40%" />
 
 The following diagram depict the combination of two services in the same codebase
 
