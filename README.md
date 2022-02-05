@@ -26,6 +26,8 @@ Fundamentals
 
 It worth to define the term "Application Service" before going with fundamentals, I am embracing the definition of Archimate: "An application service is defined as a service that exposes automated behavior.". and I can say, it is an independent technical module that group a set of technical functions within the application, bounded with business domain context. 
 
+<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Application%20Service%20Triangle.png" width="25%"/>
+
 Application Service Triangle 
 Any application service (in somehow) is bounded with three sides:
 1. Application logic - application and data are two sides of one coin so the template is addressing application and data through the implementation of use cases and its data contracts. 
@@ -49,3 +51,12 @@ S3D is a evolutionary and cloud native, so it is agile and cloud friendly archit
 
 
 The following diagram depict the main components of S3D 
+
+<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Simplified%20DDD%20in%20Detail.png" width="60%" />
+
+The following diagram depict the combination of two services in the same codebase
+
+<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Combined%20Services.png" width="50%" />
+
+And, the following diagram depict two separated services with two separated codebase  
+<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Separated%20Service%20.png" width="50%" />
