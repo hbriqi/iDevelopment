@@ -1,7 +1,7 @@
 # Simplified-DDD (S3D)
 a new style and methodology to develop application services 
 
-<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Pyramid.png" width="40%"/>
+<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Pyramid.png" width="30%"/>
 
 # Principles  
 1. Simple & Powerful 
@@ -24,11 +24,11 @@ business logic which is encapsulated in the main folder is represented by a user
 
 
 
-Fundamentals
+# Fundamentals
 
 It worth to define the term "Application Service" before going with fundamentals, I am embracing the definition of Archimate: "An application service is defined as a service that exposes automated behavior.". and I can say, it is an independent technical module that group a set of technical functions within the application, bounded with business domain context. 
 
-<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Application%20Service%20Triangle.png" width="40%"/>
+<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Application%20Service%20Triangle.png" width="30%"/>
 
 Application Service Triangle 
 Any application service (in somehow) is bounded with three sides:
@@ -37,14 +37,18 @@ Any application service (in somehow) is bounded with three sides:
 3. Infrastructure and Hosting Environment - Application logic at the end run over a set of runtime libraries and hosted by hosting environment like VM, container, etc.     
 
 
-Application Service Structure
+# Application Service Structure
 service folder is consist of three sub-folders as follows:
 1. Application - used for implementing use cases and exposing business APIs
 2. Domain - hold business data contracts and interfaces of data access repository
 3. Infrastructure - hold adapter classes requires to consume other services (either internal or external) and that could be done via framework runtime, reusable libraries or both 
 
+The following diagram depict the application service structure based on S3D 
 
-What is it?
+<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Application%20Service%20Structure.png" width="30%" />
+
+
+# What is it?
 There are a lot of DDD flavors, while this one is going to break some constraints on DDD and make code more easily and practical to be developed and meet business requirements.
 
 S3D is a compact design tending to reduce the layers as possible, organize code via file system and scale code in or out as required. Application logic, data access, and infrastructure code are exist in the same code project which can hold one or more application service in the same repo.
@@ -54,15 +58,12 @@ S3D is a evolutionary and cloud native, so it is agile and cloud friendly archit
 
 The following diagram depict the main components of S3D
 
-<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Simplified%20DDD%20in%20Detail.png" width="60%" />
+<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Simplified%20DDD%20in%20Detail.png" width="70%" />
 
-The following diagram depict the application service structure based on S3D 
-
-<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Application%20Service%20Structure.png" width="40%" />
 
 The following diagram depict the combination of two services in the same codebase
 
-<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Combined%20Services.png" width="50%" />
+<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Combined%20Services.png" width="25%" />
 
 And, the following diagram depict two separated services with two separated codebase  
-<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Separated%20Service%20.png" width="50%" />
+<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Separated%20Service%20.png" width="35%" />
