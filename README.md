@@ -1,4 +1,4 @@
-# Simplified-DDD (S3D)
+# Intuitive Development (iDevelopment)
 A new architecture style, design pattern, and methodology to develop application services 
 
 # Principles  
@@ -41,7 +41,7 @@ service folder is consist of three sub-folders as follows:
 2. Domain - hold business data contracts and interfaces of data access repository
 3. Infrastructure - hold adapter classes requires to consume other services (either internal or external) and that could be done via framework runtime, reusable libraries or both 
 
-The following diagram depict the application service structure based on S3D 
+The following diagram depict the application service structure based on iDevelopment 
 
 <img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Application%20Service%20Structure.png" width="30%" />
 
@@ -49,12 +49,12 @@ The following diagram depict the application service structure based on S3D
 # What is it?
 There are a lot of DDD flavors, while this one is going to break some constraints on DDD and make code more easily and practical to be developed and meet business requirements.
 
-S3D is a compact design, tending to reduce the layers as possible, organize code via file system, and scale code "in" or "out" as required. Application logic, data access, and infrastructure code are exist in the same code project which can hold one or more application service in the same repo.
+iDevelopment is a compact design, tending to reduce the layers as possible, organize code via file system, and scale code "in" or "out" as required. Application logic, data access, and infrastructure code are exist in the same code project which can hold one or more application service in the same repo.
 
-S3D is an evolutionary and cloud native, so it is agile and cloud friendly architecture. the intention is to develop application module either as independent service with its ow code repo (e.g. microservice) or as a combined module in a modular application service which sharing the same code repo, but at the end what you developed is a cloud native application service and modules can be split or combined like lego pieces. Code repo can be easily managed by merging or splitting as required. The convention of using file structure make it easy to automate tasks like code generation and reusability.      
+iDevelopment is an evolutionary and cloud native, so it is agile and cloud friendly architecture. the intention is to develop application module either as independent service with its ow code repo (e.g. microservice) or as a combined module in a modular application service which sharing the same code repo, but at the end what you developed is a cloud native application service and modules can be split or combined like lego pieces. Code repo can be easily managed by merging or splitting as required. The convention of using file structure make it easy to automate tasks like code generation and reusability.      
 
 
-The following diagram depict the main components of S3D
+The following diagram depict the main components of iDevelopment
 
 <img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Simplified%20DDD%20in%20Detail.png" width="70%" />
 
@@ -69,12 +69,12 @@ And, the following diagram depict two separated services with two separated code
 
 
 >
-> [Seed Template](https://github.com/hisham-elbreky/Seed-Template) is .NET C# code template based on S3D pattern.
+> [Seed Template](https://github.com/hisham-elbreky/Seed-Template) is .NET C# code template based on iDevelopment pattern.
 >
 
 
 
-**S3D as architecture style (more than a design pattern) is based on the following pillars**:
+**iDevelopment as architecture style (more than a design pattern) is based on the following pillars**:
 - **Principles**: the fundamentals that lead the design and building software applications
 - **Infrastructure**: tools and frameworks
 - **Application Logic**: the target digital business 
