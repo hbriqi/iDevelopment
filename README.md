@@ -1,7 +1,5 @@
 # Simplified-DDD (S3D)
-a new style and methodology to develop application services 
-
-<img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Pyramid.png" width="30%"/>
+A new architecture style, design pattern, and methodology to develop application services 
 
 # Principles  
 1. Simple & Powerful 
@@ -67,3 +65,21 @@ The following diagram depict the combination of two services in the same codebas
 
 And, the following diagram depict two separated services with two separated codebase  
 <img src="https://github.com/hisham-elbreky/Simplified-DDD/blob/50240d77ec3fcba0e3fabda161fc2999f725e59f/diagrams/Seed-code-template-Separated%20Service%20.png" width="35%" />
+
+
+
+>
+> [Seed Template](https://github.com/hisham-elbreky/Seed-Template) is .NET C# code template based on S3D pattern.
+>
+
+
+
+**S3D as architecture style (more than a design pattern) is based on the following pillars**:
+- **Principles**: the fundamentals that lead the design and building software applications
+- **Infrastructure**: tools and frameworks
+- **Application Logic**: the target digital business 
+- **Interfaces**: the channels "to" and "from" the software application 
+- **Process**: the flow of procedures through roles
+
+
+
