@@ -51,9 +51,9 @@ The following diagram depict the application service structure based on S3D
 # What is it?
 There are a lot of DDD flavors, while this one is going to break some constraints on DDD and make code more easily and practical to be developed and meet business requirements.
 
-S3D is a compact design tending to reduce the layers as possible, organize code via file system and scale code in or out as required. Application logic, data access, and infrastructure code are exist in the same code project which can hold one or more application service in the same repo.
+S3D is a compact design, tending to reduce the layers as possible, organize code via file system, and scale code "in" or "out" as required. Application logic, data access, and infrastructure code are exist in the same code project which can hold one or more application service in the same repo.
 
-S3D is a evolutionary and cloud native, so it is agile and cloud friendly architecture. the intention is to develop application module either as independent service with its ow code repo (e.g. microservice) or as a combined module in a modular application service which sharing the same code repo, but at the end what you developed is a cloud native application service and modules can be split or combined like lego pieces. Code repo can be easily managed by merging or splitting as required. The convention of using file structure make it easy to automate tasks like code generation and reusability.      
+S3D is an evolutionary and cloud native, so it is agile and cloud friendly architecture. the intention is to develop application module either as independent service with its ow code repo (e.g. microservice) or as a combined module in a modular application service which sharing the same code repo, but at the end what you developed is a cloud native application service and modules can be split or combined like lego pieces. Code repo can be easily managed by merging or splitting as required. The convention of using file structure make it easy to automate tasks like code generation and reusability.      
 
 
 The following diagram depict the main components of S3D
